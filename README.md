@@ -1,27 +1,13 @@
-# Git
+# Stdlib
 
-Common library and utilities to use Git in NodeJS
+Standard utility functions to be used in TypeScript
 
 ## Installation
 
 ```typescript
-yarn add @blendsdk/git --save
+yarn add @blendsdk/stdlib --save
 ```
 
 ```typescript
-npm install @blendsdk/git --save
-```
-
-# Utlities
-
-Check if we are on a given branch
-
-```bash
-is_git_branch <branch name>
-```
-
-Check if the current working git folder is clean
-
-```bash
-is_git_clean
+npm install @blendsdk/stdlib --save
 ```
