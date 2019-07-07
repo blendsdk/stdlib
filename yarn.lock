@@ -131,10 +131,10 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@blendsdk/git@^0.9.4":
-  version "0.9.4"
-  resolved "https://registry.yarnpkg.com/@blendsdk/git/-/git-0.9.4.tgz#90c7dc8514c19dbe6f7196724cf5d79ccb772edf"
-  integrity sha512-r4iCwupfI5eU1e2qeML6Ruq2XZn6slbpcjOXEYYW178aKj/++aX7MMUsBFrYuD76J6cA3R91JCdkmopfPUyWlw==
+"@blendsdk/git@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@blendsdk/git/-/git-1.0.3.tgz#94fef3d5eab7207222a2b0db3e94c2306b856c63"
+  integrity sha512-3sKX356kDLMyy+Tt3Rm/xv89I/DgyAC9cIwGPJPyB8BYedtHDV8KMpGPxI64m8/xEoo5kcH8nhc8m3TB+QV0gw==
   dependencies:
     chalk "^2.4.2"
     shelljs "^0.8.3"
