@@ -21,3 +21,4 @@ export * from "./random";
 export * from "./shallowClone";
 export * from "./types";
 export * from "./wrapInArray";
+export * from "./asyncForEach";
