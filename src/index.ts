@@ -22,3 +22,5 @@ export * from "./shallowClone";
 export * from "./types";
 export * from "./wrapInArray";
 export * from "./asyncForEach";
+export * from "./ucFirst";
+export * from "./camelCase";
