@@ -26,6 +26,10 @@ export function forEach<T>(
             elObj.toString() === "[object HTMLCollection]"
         );
     };
+    const isNodeList = (elObj: any) => {
+        return ((elObj.constructor && elObj.constructor.name && elObj.constructor.name === "NodeList") ||
+            elObj.toString() === "[object NodeList]");
+    };
     if (obj) {
         if (isFunction(obj)) {
             return;
@@ -37,7 +41,7 @@ export function forEach<T>(
                     break;
                 }
             }
-        } else if (isHTMLCollection(obj) || isInstanceOf(obj, NodeList)) {
+        } else if (isHTMLCollection(obj) || isNodeList(obj)) {
             const length: number = obj.length;
             let el: HTMLElement;
             for (key = 0; key !== length; key++) {
