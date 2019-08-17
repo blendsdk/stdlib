@@ -8,3 +8,5 @@ node_modules
 dist/tests
 fiddle.ts
 *.tgz
+**/test/**
+temp
