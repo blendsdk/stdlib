@@ -24,3 +24,5 @@ export * from "./wrapInArray";
 export * from "./asyncForEach";
 export * from "./ucFirst";
 export * from "./camelCase";
+export * from "./ensureFilePath";
+export * from "./ensureFolder";
