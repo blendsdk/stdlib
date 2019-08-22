@@ -1,6 +1,6 @@
-import { isInstanceOf } from "./isInstanceOf";
-import { isFunction } from "./isFunction";
 import { isArray } from "./isArray";
+import { isFunction } from "./isFunction";
+import { isInstanceOf } from "./isInstanceOf";
 
 /**
  * Loops though the given object (array, dictionary, NodeList, HTMLCollection) and runs

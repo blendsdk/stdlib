@@ -10,7 +10,7 @@ export type TFunction = (...args: any[]) => any;
  * @interface IDictionary
  */
 export interface IDictionary {
-    [key: string]: any
+    [key: string]: any;
 }
 
 /**
@@ -21,5 +21,5 @@ export interface IDictionary {
  * @template T
  */
 export interface IDictionaryOf<T> {
-    [key: string]: T
+    [key: string]: T;
 }

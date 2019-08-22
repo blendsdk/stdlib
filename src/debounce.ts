@@ -18,7 +18,7 @@ import { TFunction } from "./types";
 export function debounce(delay: number, callback: TFunction, scope?: any, immediate?: boolean): TFunction {
     let timeout: any;
     immediate = immediate || false;
-    return function () {
+    return function() {
         const me = this;
         scope = scope || me;
         const args = arguments;

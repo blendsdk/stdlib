@@ -1,6 +1,6 @@
-import { isRegExp } from "./isRegExp";
-import { isClass } from "./isClass";
 import { isArray } from "./isArray";
+import { isClass } from "./isClass";
+import { isRegExp } from "./isRegExp";
 
 /**
  * Tests whether the given value is an object.
